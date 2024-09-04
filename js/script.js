@@ -37,13 +37,13 @@ window.onscroll = () => {
 /*==================== scroll reveal ====================*/
 ScrollReveal({
     reset: true,
-    distance: '85px',
-    duration: 2500,
+    distance: '75px',
+    duration: 1500,
     delay: 300
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .work-container, .project-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-img, .work-container, .project-container, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img, .education-column, .skills-column', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content, .education-column .title, .skills-column .title', { origin: 'right' });
 
